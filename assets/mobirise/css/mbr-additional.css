@@ -709,8 +709,12 @@ body {
 .btn {
   font-weight: 400;
 }
-.cid-sz1alUsitD .navbar-dropdown {
-  position: relative !important;
+.cid-sz1alUsitD {
+  z-index: 1000;
+  width: 100%;
+}
+.cid-sz1alUsitD nav.navbar {
+  position: fixed;
 }
 .cid-sz1alUsitD .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -796,8 +800,7 @@ body {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.2);
 }
 .cid-sz1alUsitD .navbar.opened {
   transition: all 0.3s;
@@ -1010,6 +1013,7 @@ body {
 }
 .cid-sz1alUsitD .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-sz1alUsitD a.nav-link {
   display: flex;
@@ -1365,8 +1369,12 @@ body {
 .cid-sz0ZQ9Wlz4 .row {
   justify-content: center;
 }
-.cid-sz1alUsitD .navbar-dropdown {
-  position: relative !important;
+.cid-sz1alUsitD {
+  z-index: 1000;
+  width: 100%;
+}
+.cid-sz1alUsitD nav.navbar {
+  position: fixed;
 }
 .cid-sz1alUsitD .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1452,8 +1460,7 @@ body {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.2);
 }
 .cid-sz1alUsitD .navbar.opened {
   transition: all 0.3s;
@@ -1666,6 +1673,7 @@ body {
 }
 .cid-sz1alUsitD .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-sz1alUsitD a.nav-link {
   display: flex;
@@ -1822,8 +1830,12 @@ body {
 .cid-sz0YmeTxsP .row {
   justify-content: center;
 }
-.cid-sz1alUsitD .navbar-dropdown {
-  position: relative !important;
+.cid-sz1alUsitD {
+  z-index: 1000;
+  width: 100%;
+}
+.cid-sz1alUsitD nav.navbar {
+  position: fixed;
 }
 .cid-sz1alUsitD .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1909,8 +1921,7 @@ body {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.2);
 }
 .cid-sz1alUsitD .navbar.opened {
   transition: all 0.3s;
@@ -2123,6 +2134,7 @@ body {
 }
 .cid-sz1alUsitD .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-sz1alUsitD a.nav-link {
   display: flex;
@@ -2279,8 +2291,12 @@ body {
 .cid-sz0ZqIaNYn .row {
   justify-content: center;
 }
-.cid-sz1alUsitD .navbar-dropdown {
-  position: relative !important;
+.cid-sz1alUsitD {
+  z-index: 1000;
+  width: 100%;
+}
+.cid-sz1alUsitD nav.navbar {
+  position: fixed;
 }
 .cid-sz1alUsitD .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -2366,8 +2382,7 @@ body {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.2);
 }
 .cid-sz1alUsitD .navbar.opened {
   transition: all 0.3s;
@@ -2580,6 +2595,7 @@ body {
 }
 .cid-sz1alUsitD .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-sz1alUsitD a.nav-link {
   display: flex;
@@ -2736,8 +2752,12 @@ body {
 .cid-sz10EnokiA .row {
   justify-content: center;
 }
-.cid-sz1alUsitD .navbar-dropdown {
-  position: relative !important;
+.cid-sz1alUsitD {
+  z-index: 1000;
+  width: 100%;
+}
+.cid-sz1alUsitD nav.navbar {
+  position: fixed;
 }
 .cid-sz1alUsitD .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -2823,8 +2843,7 @@ body {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.2);
 }
 .cid-sz1alUsitD .navbar.opened {
   transition: all 0.3s;
@@ -3037,6 +3056,7 @@ body {
 }
 .cid-sz1alUsitD .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-sz1alUsitD a.nav-link {
   display: flex;
@@ -3193,8 +3213,12 @@ body {
 .cid-sz13KBoOz2 .row {
   justify-content: center;
 }
-.cid-sz1alUsitD .navbar-dropdown {
-  position: relative !important;
+.cid-sz1alUsitD {
+  z-index: 1000;
+  width: 100%;
+}
+.cid-sz1alUsitD nav.navbar {
+  position: fixed;
 }
 .cid-sz1alUsitD .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -3280,8 +3304,7 @@ body {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.2);
 }
 .cid-sz1alUsitD .navbar.opened {
   transition: all 0.3s;
@@ -3494,6 +3517,7 @@ body {
 }
 .cid-sz1alUsitD .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-sz1alUsitD a.nav-link {
   display: flex;
