@@ -34,7 +34,7 @@
       "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
-    "name": "cm-times",
+    "name": "誠美拾光藝術品",
     "versionFirst": "5.3.5",
     "siteFonts": [
       {
@@ -51,7 +51,19 @@
     "imageResize": true,
     "uniqCompNum": 7,
     "versionPublish": "5.3.5",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "chatbutton": {},
+    "favicon": "@PROJECT_PATH@/assets/images/chenmei-identity-all-ewen-07-128x120.png",
+    "mbrsiteDomain": "e1vawbiaru",
+    "cssOptimize": false,
+    "lazyLoad": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "pwa-switcher": false
   },
   "pages": {
     "index.html": {
