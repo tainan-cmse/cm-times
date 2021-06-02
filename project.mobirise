@@ -56,7 +56,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 39,
+    "uniqCompNum": 42,
     "versionPublish": "5.3.5",
     "screenshot": "screenshot.png",
     "chatbutton": {},
@@ -555,10 +555,13 @@
           "_params": {}
         },
         {
-          "alias": false,
+          "_name": "header3",
+          "_customHTML": "<section class=\"header3\" group=\"Header\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"8\" max=\"12\" step=\"1\" value=\"12\" condition=\"!fullWidth\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Slide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"color\" title=\"Color\" value=\"#fffbf6\" selected>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/naturalm4/components/_images/background7.jpg\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{\n        'mbr-fullscreen': fullScreen}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"row justify-content-center\">\n                <div class=\"col-12 col-md-{{textWidth}}\" mbr-class=\"{'col-lg-12':fullWidth}\">\n                    <div class=\"row\">\n                        <div class=\"right-side col-12 col-sm-{{imageWidth}} item-wrapper\">\n                            <img src=\"@PROJECT_PATH@/assets/images/15232274-1366394460040532-3091925050182228284-n-750x500.jpg\" alt=\"Mobirise\">\n                        </div>                        \n                        <div class=\"left-side col-12 col-sm\">\n                            <h5 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                                <b>黃敏俊</b>\n                            <div><b>HUANG MING-CHUN</b></div></h5>\n                            <p class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                                <i>With 30-minute premium treat</i></p>\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .button-align\">1971 生於臺灣<br>復興商工繪畫組 畢業<br><br><br>「光」,是我創作生涯三十年以來主要研究的課題,在創作上逐漸發現過往的色彩理論,已無法滿足我對光影表現的追求。印象派過於注重光影而忽略形體輪廓,以致光影與形體間產生「取捨」,而這成了我欲突破的課題。傳統繪畫長久以來依循光、色分離的概念,兩者三原色並不一致。然而,既然光帶來色彩,光即是色彩,本出同源,最終理應相符,為何兩者之三原色竟有所區別?在我以光的原理所出發的色彩理論中,藍色多為光衰減的結果,因此我進一步調整,統一了光與色料三原色為全新的光色三原色(洋紅、黃、鮮綠),即所謂「光色合一」,並提出實例及當代色彩理論予以佐證,縮小繪畫與現實之間的差距,使畫面更具傳統繪畫所無法達到的真實與立體感。<br><br><br>1971 Born in Taipei, Taiwan Graduated from Fu-Hsin Trade &amp; Arts School, majoring in painting ‘Light’ has been the main subject I studied throughout the past 30 years of my creation career, during which I gradually realized that traditional color theories could no longer satisfy what I sought to express about light and color. The Impressionists’ over-attention to light and shadows led to the overlooking of form and contour, and caused an ‘either light or form’ conflict that I have been attempting to resolve. All along, traditional paintings have relied on the theory that light and color were separate, so the primary colors of light and pigment were not consistent. However, light produces colors; in other words, light is colors. Both come from the same root and would converge eventually. So, why the difference between the two? In my theory, stemming from the fundamental characteristics of light, blue is mostly a result of the attenuation of light. Accordingly, I made adjustments and brought forth my new three primary colors (magenta, yellow and viridian green) ,further, unify the three primary colors of both light and pigment i.e. ‘Color-Light uni cation’. I analyzed and proved them based on practical application together with supportive contemporary color theories, thus minimize the difference between paintings and reality, producing more vivid, 3D and stereo-perceptive effects in artwork that traditional paintings could not achieve.</p>\n                            <div class=\"button-align\">\n                                <div class=\"mbr-section-btn\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-4\">\n                                    <a class=\"btn btn-primary-outline\" href data-app-placeholder=\"Type Text\">Read More</a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>                                     \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
@@ -569,90 +572,66 @@
               "width": "100%"
             },
             ".left-side": {
-              "text-align": "left"
+              "text-align": "left",
+              "padding-left": "5rem"
             },
             ".row": {
-              "align-items": "center",
-              "background": "@cardsBg",
-              "padding": "0px",
-              "margin": "0"
+              "align-items": "center"
             },
-            ".mbr-section-title": {
-              "margin": "0 0 12px",
-              "color": "#0c5b47",
-              "text-align": "center"
+            "@media (max-width: 600px)": {
+              ".mbr-section-btn": {
+                "margin-bottom": "25px"
+              }
             },
-            ".desc": {
-              "padding": "0 0px 20px",
-              "color": "#1b745e"
-            },
-            ".col-auto": {
-              "display": "inline-block"
-            },
-            ".right-side": {
-              "padding": "0",
-              "position": "relative",
-              "display": "flex",
-              "align-items": "center",
-              "justify-content": "center",
-              "text-align": "center"
-            },
-            ".container-fluid": {
-              "padding": "0"
+            ".mbr-section-subtitle": {
+              "color": "#626262"
             },
             "& when (@reverseContent)": {
               ".row": {
                 "flex-direction": "row-reverse"
-              }
-            },
-            ".mbr-section-subtitle": {
-              "color": "#1b745e",
-              "text-align": "left",
-              "font-style": "italic",
-              "padding-bottom": "12px"
-            },
-            ".text": {
-              "position": "absolute",
-              "width": "100%",
-              "padding": "0 10%"
-            },
-            ".desc, .mbr-section-btn": {
-              "text-align": "center"
-            },
-            ".mbr-section-btn": {
-              "margin-top": "30px"
-            },
-            ".l1": {
-              "text-align": "center"
-            },
-            ".r1": {
-              "text-align": "center",
-              "color": "#ffffff"
-            },
-            ".r2": {
-              "color": "#ffffff"
-            },
-            "@media (max-width: 990px)": {
+              },
               ".left-side": {
-                "padding": "25px 0"
+                "padding-left": "15px",
+                "padding-right": "5rem"
               }
             },
-            ".l2 DIV": {
+            "@media (max-width: 690px)": {
+              ".mbr-section-title": {
+                "margin-top": "25px"
+              },
+              ".left-side": {
+                "padding-right": "15px",
+                "padding-left": "15px"
+              },
+              ".right-side": {
+                "padding-right": "15px",
+                "padding-left": "15px"
+              }
+            },
+            ".button-align": {
+              "width": "100%"
+            },
+            ".mbr-text": {
+              "padding-top": "10px"
+            },
+            ".mbr-text, .button-align": {
+              "color": "#10634e",
               "text-align": "center"
             },
-            ".l1 DIV": {
+            ".mbr-section-title": {
+              "color": "#10634e",
+              "text-align": "center"
+            },
+            ".mbr-section-title DIV": {
               "text-align": "center"
             }
           },
-          "_name": "features5",
-          "_sourceTheme": "floram4",
-          "_customHTML": "<section class=\"features5\" group=\"Features\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"8\" max=\"12\" step=\"1\" value=\"12\" condition=\"!fullWidth\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Slide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\">\n        <input type=\"color\" title=\"Color\" name=\"cardsBg\" value=\"#fffbf6\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background2.jpg\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{\n        'mbr-fullscreen': fullScreen}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"row justify-content-center\">\n                <div class=\"right-side col-12 col-md-{{imageWidth}} item-wrapper\">\n                    <div class=\"text\">\n                        <h3 class=\"mbr-section-subtitle mbr-fonts-style r1\" data-app-selector=\".r1\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\"></h3>\n                        <h5 class=\"mbr-section-title mbr-fonts-style r2\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".r2\"></h5>\n                        <div class=\"mbr-section-btn\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-secondary\" href data-app-placeholder=\"Type Text\">View more</a></div>\n                    </div>\n                    <img src=\"@PROJECT_PATH@/assets/images/15232274-1366394460040532-3091925050182228284-n-750x500.jpg\" alt=\"Mobirise\">\n                </div>\n                <div class=\"left-side col-12 col-md\">\n                    <h3 class=\"mbr-section-subtitle mbr-fonts-style l1\" data-app-selector=\".l1\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\">\n                        <br>黃敏俊<div>HUANG MING-CHUN</div></h3>\n\n                    <h5 class=\"mbr-section-title mbr-fonts-style l2\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".l2\"><div><br></div><div>1971 生於臺灣</div><div>復興商工繪畫組 畢業</div><div><br></div><div><br></div><div>「光」,是我創作生涯三十年以來主要研究的課題,在創作上逐漸發現過往的色彩理論,已無法滿足我對光影表現的追求。印象派過於注重光影而忽略形體輪廓,以致光影與形體間產生「取捨」,而這成了我欲突破的課題。傳統繪畫長久以來依循光、色分離的概念,兩者三原色並不一致。然而,既然光帶來色彩,光即是色彩,本出同源,最終理應相符,為何兩者之三原色竟有所區別?在我以光的原理所出發的色彩理論中,藍色多為光衰減的結果,因此我進一步調整,統一了光與色料三原色為全新的光色三原色(洋紅、黃、鮮綠),即所謂「光色合一」,並提出實例及當代色彩理論予以佐證,縮小繪畫與現實之間的差距,使畫面更具傳統繪畫所無法達到的真實與立體感。</div><div><br></div><br><div>1971 Born in Taipei, Taiwan Graduated from Fu-Hsin Trade &amp; Arts School, majoring in painting ‘Light’ has been the main subject I studied throughout the past 30 years of my creation career, during which I gradually realized that traditional color theories could no longer satisfy what I sought to express about light and color. The Impressionists’ over-attention to light and shadows led to the overlooking of form and contour, and caused an ‘either light or form’ conflict that I have been attempting to resolve. All along, traditional paintings have relied on the theory that light and color were separate, so the primary colors of light and pigment were not consistent. However, light produces colors; in other words, light is colors. Both come from the same root and would converge eventually. So, why the difference between the two? In my theory, stemming from the fundamental characteristics of light, blue is mostly a result of the attenuation of light. Accordingly, I made adjustments and brought forth my new three primary colors (magenta, yellow and viridian green) ,further, unify the three primary colors of both light and pigment i.e. ‘Color-Light uni cation’. I analyzed and proved them based on practical application together with supportive contemporary color theories, thus minimize the difference between paintings and reality, producing more vivid, 3D and stereo-perceptive effects in artwork that traditional paintings could not achieve.</div></h5>\n                    <div class=\"mbr-section-btn\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-secondary\" href data-app-placeholder=\"Type Text\">View more</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "sz0TxqgJPa",
-          "_anchor": "features5-2",
+          "_cid": "sz9X3v9Cjn",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "header3-15"
         },
         {
           "_name": "content2",
@@ -705,12 +684,12 @@
           "_anchor": "content2-11",
           "_isUserblock": true,
           "_cid": "sz5DV6IyFc",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
+          "_params": {}
         },
         {
           "alias": false,
